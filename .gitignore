@@ -1,0 +1,8 @@
+public_web/assets/
+protected/runtime/
+themes/classic/views/
+logs/
+*~
+protected/config/local.php
+protected/data/auth.php
+protected/data/mobeen.db

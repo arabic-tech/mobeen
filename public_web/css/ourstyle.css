@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "UthmanTN1";
+  src: url("/fonts/uthman_tn1_10.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "UthmanTN1B";
+  src: url("/fonts/uthman_tn1b_10.otf") format("opentype");
+}
+
+.uthman{
+  font-family: UthmanTN1, "Traditional Arabic", serif;
+}
+
+.uthmanb{
+        font-family:UthmanTN1B;
+}
+.fonttohama{
+        font-family:Tahoma,Geneva,sans-serif;
+}
+
+.fontsmall{
+        font-size:small;
+}
+
+.fontlarge{
+        font-size:large;
+}
+
+.fontxlarge{
+        font-size:x-large;
+}
+
+.fontxxlarge{
+        font-size:x-large;
+}
+

@@ -1,0 +1,19 @@
+.tiles{
+        animation:myfirst 5s forwards;
+        -webkit-animation:myfirst 5s forwards; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+        0% {opacity:0.01;}
+        70% {opacity:0.8;}
+        100% {opacity:1;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+        0% {opacity:0.01;}
+        70% {opacity:0.8;}
+        100% {opacity:1;}
+}
+

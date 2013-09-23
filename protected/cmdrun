@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+//defined('YII DEBUG') or define('YII DEBUG',true);
+
+require_once(dirname(__FILE__).'/../yii/framework/yii.php');
+
+$main_config = require (dirname(__FILE__).'/config/main.php');
+$local_config= require (dirname(__FILE__).'/config/local.php');
+
+$config = CMap::mergeArray($main_config, $local_config);
+
+unset($config['theme']);
+unset($config['defaultController']);
+unset($config['components']['log']['routes'][1]);
+
+Yii::getLogger()->autoFlush = 1;
+Yii::getLogger()->autoDump = true;
+Yii::createConsoleApplication($config)->run();
