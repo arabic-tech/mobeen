@@ -1,8 +1,9 @@
-public_web/assets/
-protected/runtime/
+webapp/public_web/assets/
+webapp/protected/runtime/
 themes/classic/views/
 logs/
 *~
-protected/config/local.php
-protected/data/auth.php
-protected/data/mobeen.db
+webapp/protected/config/local.php
+webapp/protected/data/auth.php
+webapp/protected/data/mobeen.db
+webapp/protected/config/local.php
